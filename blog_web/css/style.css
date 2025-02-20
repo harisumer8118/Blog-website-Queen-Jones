@@ -1,0 +1,112 @@
+.addprosdk tbody tr  td button
+{
+border: none;
+outline: none;
+background: none;
+}
+.addprosdk  tbody  tr  td a
+{
+
+
+    text-decoration: none;
+    color: rgb(93, 66, 248);
+}
+.dash-logo img
+{
+    width: 60%;
+}
+
+/* ///////////////////////    user.css  */
+
+select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    background-color: #f8f9fa;
+}
+select:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+table tr td .del_anc
+{
+    color: #fff;
+}
+
+
+/* ///////////////////////    custom.css  */
+
+
+.form-label
+{
+    margin: 20px 0 0 0;
+}
+.text-area-txt {
+    height: 300px !important;
+    margin: 10px 0;
+}
+
+
+.updatepost_imgg
+{
+    width:250px;
+    margin: 30px 0 0 0;
+}
+.qweq
+{
+    width: 30px !important;
+}
+.addprosdk th
+{
+    font-size: 16px;
+}
+
+.form-control
+{
+    margin-top: 8px;
+}
+
+.add-posttext-margin-top
+{
+    margin-top: 400px;
+}
+
+.quill
+{
+    display: inline-block;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .card-title{    
+        /* height: 16px; */
+        font-size: .6rem !important;
+        overflow: hidden;}
+.loghead{font-size: 2rem !important}
+
+    .card-text{
+        font-size: .45rem !important;
+        /* height: 22px; */
+        overflow: hidden;}
+        .btnn{font-size: .35rem !important; margin:12px 0 0 0;}
+        .text-muted {font-size: 8px !important;}
+}
+
+
+@media screen and (max-width:500px) {
+    .pedding-of{padding: 1.5rem !important;}
+
+    
+
+        .imgpost {width: 90% !important; margin:auto !important; text-align: center; border-radius: 6px !important;}
+        .card{ padding:14px 0 0 0 !important ;}
+}
+
+
+
+
+
+
